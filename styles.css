@@ -1,4 +1,3 @@
-Positioning: Center your content in the browser window
 body {
   margin: 0;
   display: flex;
@@ -23,11 +22,3 @@ h1 {
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
-
-Type: change in type: size, weight, color, alignment. See below about Google fonts.
-
-Links/Navigation: Display vertically on mobile. Remove default browser styles (bullets and underlines) and make sure that they can be distinguished from one another visually.
-
-Image: remove the border from your linked image (don’t forget this one; it doesn’t show up by default on most Mac browsers).
-
-Background: Give something on the page a background color or background image. Use a color scheme to define the areas of the site, including the header, navigation, body and footer.
