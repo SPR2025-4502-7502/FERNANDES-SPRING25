@@ -245,7 +245,7 @@ a img {
   }
 }
 
-@media (max-width: 555) {
+@media (max-width: 555px) {
   .listcontainer {
     flex-direction: column;
   }
