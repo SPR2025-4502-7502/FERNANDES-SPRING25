@@ -118,7 +118,6 @@ nav ul li:hover {
 
 h1 {
   font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
   color: darkblue;
@@ -126,8 +125,7 @@ h1 {
 }
 
 h2 {
-   font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
+  font-family: "Open Sans", sans-serif;
   text-align: center;
   font-weight: 300;
   font-style: normal;
@@ -137,7 +135,6 @@ h2 {
 
 h3 {
   font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
   text-align: center;
   font-weight: 300;
   font-style: normal;
@@ -147,7 +144,6 @@ h3 {
 
 h4 {
   font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
   text-align: center;
   font-weight: 300;
   font-style: normal;
