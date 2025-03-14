@@ -13,7 +13,6 @@ nav ul li a:visited {
 }
 
 nav ul li a:hover button{
-  text-decoration: ;
   color: mediumblue;
   background-color: lightblue;
 }
@@ -24,7 +23,6 @@ nav ul li:hover {
 
 
 nav {
-  background-color: ;
   max-width: 800px;
   margin: auto;
   font-size: 1rem;
@@ -59,10 +57,8 @@ nav ul li {
 
 nav ul li a {
   font-family: 'Charm', cursive;
-  font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-
   text-decoration: none;
   color: rgba(230,68,0,0.5);
 }
@@ -89,7 +85,6 @@ nav ul li a:visited {
 }
 
 nav ul li a:hover button{
-  text-decoration: ;
   color: mediumblue;
   background-color: lightblue;
 }
