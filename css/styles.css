@@ -225,7 +225,7 @@ a img {
   margin-right: 20px;
 }
 
-@media screen (max-width: 1200px) {
+@media (max-width: 1200px) {
   .listcontainer {
     flex-direction: row;
     padding: 20px;
@@ -237,10 +237,9 @@ a img {
     width: 45%;
     margin-bottom: 20px;
   }
-  }
 }
 
-@media screen (max-width: 800px) {
+@media (max-width: 800px) {
   .listcontainer {
     flex-direction: row;
     padding: 10px;
@@ -251,17 +250,12 @@ a img {
   }
 }
 
-@media screen (max-width: 555) {
+@media (max-width: 555) {
   .listcontainer {
     flex-direction: column;
   }
 }
 
-@media screen (orientation: portrait) {
-  .listcontainer {
-    flex-direction: column;
-  }
-}
 footer {
   weight: 400;
   color: darkblue;
