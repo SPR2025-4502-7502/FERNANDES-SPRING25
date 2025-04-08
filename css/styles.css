@@ -1,10 +1,6 @@
 body {
    background-color: #004343;
  }
-@media (width < 660px) {
-  body {
-    background-color: var(--off-white);
-  }
 }
  
  a {
@@ -267,9 +263,9 @@ body {
  
    body {
      margin: 32px;
-     color: var(--black);
+     color: var(--off-white);
      font-size: var(--fs-reg);
-     background: var(--black);
+     background: var(--off-white);
    }
  
    h1,
