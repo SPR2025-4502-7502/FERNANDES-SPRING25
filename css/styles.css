@@ -354,9 +354,6 @@ footer {
     @media (width > 960px) {
       --bento-card-image-width: 45%;
     }
-    @media only screen and (max-width: 600px) {
-      --bento-card-horizontal-alignment: center;
-    }
 
     grid-area: one;
   }
@@ -371,9 +368,6 @@ footer {
     @media (width > 960px) {
       --bento-card-image-width: 100%;
     }
-    @media only screen and (max-width: 600px) {
-      --bento-card-horizontal-alignment: center;
-    }
   }
 
   .bento-grid> :nth-child(3) {
@@ -386,10 +380,6 @@ footer {
       --bento-card-image-width: 100%;
       --bento-card-horizontal-alignment: start;
       --bento-card-vertical-alignment: center;
-    @media only screen and (max-width: 600px) {
-      --bento-card-horizontal-alignment: center;
-    }
-
     }
   }
 
@@ -404,9 +394,6 @@ footer {
       --bento-card-image-width: 100%;
       --bento-card-horizontal-alignment: start;
       --bento-card-vertical-alignment: center;
-    }
-    @media only screen and (max-width: 600px) {
-      --bento-card-horizontal-alignment: center;
     }
 
   }
@@ -426,10 +413,6 @@ footer {
       --bento-card-horizontal-alignment: center;
       grid-template-columns: 1fr 1fr;
     }
-    @media only screen and (max-width: 600px) {
-      --bento-card-horizontal-alignment: center;
-    }
-  }
 
   .bento-grid> :nth-child(6) {
     --heading-font-size: var(--fs-xl);
@@ -442,10 +425,6 @@ footer {
     @media (width > 960px) {
       --bento-card-image-width: 100%;
     }
-    @media only screen and (max-width: 600px) {
-      --bento-card-horizontal-alignment: center;
-    }
-
   }
 
   .bento-grid> :nth-child(7) {
@@ -462,9 +441,6 @@ footer {
       --bento-card-image-width: 200px;
       --bento-card-vertical-alignment: center;
     }
-    @media only screen and (max-width: 600px) {
-      --bento-card-horizontal-alignment: center;
-    }
   }
 
   .bento-grid> :nth-child(8) {
@@ -477,8 +453,6 @@ footer {
       --bento-card-image-width: 100%;
       --bento-card-horizontal-alignment: center;
     }
-    @media only screen and (max-width: 600px) {
-      --bento-card-horizontal-alignment: center;
     }
   }
 }
