@@ -318,18 +318,10 @@ body {
        ;
      }
    }
-    @media (width < 660px) {
-      grid-template-areas:
-        "one"
-        "two"
-        "three"
-        "four"
-        "five"
-        "six"
-        "seven"
-        "eight";
-      grid-template-columns: 1fr;
-        }
+    @media (max-width: 660px) {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
  
    .bento-grid>* {
      color: var(--bento-card-foreground, var(--black));
