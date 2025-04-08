@@ -352,7 +352,6 @@ footer {
     order: var(--bento-card-image-order);
   }
 
-<!--box1-->
   .bento-grid> :nth-child(1) {
     --heading-font-size: var(--fs-xl);
     --heading-span-foreground: var(--accent-base);
@@ -375,7 +374,6 @@ footer {
     grid-area: one;
   }
 
-<!--box2-->
   .bento-grid> :nth-child(2) {
     --bento-card-image-order: -1;
     --bento-card-image-width: 200px;
@@ -393,7 +391,6 @@ footer {
     }
   }
 
-<!--box3-->
   .bento-grid> :nth-child(3) {
     --bento-card-surface: var(--accent-base);
      --bento-card-image-width: 200px;
@@ -413,7 +410,6 @@ footer {
     }
   }
 
-<!--box4-->
   .bento-grid> :nth-child(4) {
     --bento-card-horizontal-alignment: center;
     --bento-card-surface: var(--primary-subdued);
@@ -435,7 +431,6 @@ footer {
 
   }
 
-<!--box5-->
   .bento-grid> :nth-child(5) {
     --bento-card-horizontal-alignment: center;
     --bento-card-foreground: var(--black);
@@ -459,7 +454,6 @@ footer {
     }
   }
 
-<!--box6-->
   .bento-grid> :nth-child(6) {
     --heading-font-size: var(--fs-xl);
     --heading-span-display: block;
@@ -477,10 +471,8 @@ footer {
     @media (width > 960px) {
       --bento-card-image-width: 100%;
     }
-
   }
 
-<!--box7-->
   .bento-grid> :nth-child(7) {
     --heading-span-foreground: var(--primary-base);
     --heading-span-style: italic;
@@ -503,7 +495,6 @@ footer {
     }
   }
 
-<!--box8-->
   .bento-grid> :nth-child(8) {
     --bento-card-surface: var(--accent-base);
     --bento-card-image-width: 60%;
