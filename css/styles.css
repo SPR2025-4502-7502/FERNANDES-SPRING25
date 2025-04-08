@@ -299,17 +299,6 @@ footer {
       'seven'
       'eight';
 
-    @media (width < 660px) {
-      grid-template-areas:
-        'one'
-        'two'
-        'three'
-        'four'
-        'five'
-        'six'
-        'seven'
-        'eight';
-
     @media (width > 660px) {
       grid-template-areas:
         "one one"
@@ -362,11 +351,6 @@ footer {
     --bento-card-image-width: 200px;
     --bento-card-gap: 16px;
     
-    @media (width < 660px) {
-      --bento-card-image-width: 100%;
-      --bento-card-horizontal-alignment: start;
-      --bento-card-vertical-alignment: center;
-    }
     @media (width > 960px) {
       --bento-card-image-width: 45%;
     }
@@ -381,11 +365,6 @@ footer {
 
     grid-area: two;
 
-    @media (width < 660px) {
-      --bento-card-image-width: 100%;
-      --bento-card-horizontal-alignment: start;
-      --bento-card-vertical-alignment: center;
-    }
     @media (width > 960px) {
       --bento-card-image-width: 100%;
     }
@@ -398,11 +377,6 @@ footer {
 
     grid-area: three;
 
-    @media (width < 660px) {
-      --bento-card-image-width: 100%;
-      --bento-card-horizontal-alignment: start;
-      --bento-card-vertical-alignment: center;
-    }
     @media (width > 960px) {
       --bento-card-image-width: 100%;
       --bento-card-horizontal-alignment: start;
@@ -416,12 +390,6 @@ footer {
      --bento-card-image-width: 200px;
 
     grid-area: four;
-
-    @media (width < 660px) {
-      --bento-card-image-width: 100%;
-      --bento-card-horizontal-alignment: start;
-      --bento-card-vertical-alignment: center;
-    }
 
     @media (width > 960px) {
       --bento-card-image-width: 100%;
@@ -440,11 +408,6 @@ footer {
 
     grid-area: five;
 
-    @media (width < 660px) {
-      --bento-card-image-width: 100%;
-      --bento-card-horizontal-alignment: start;
-      --bento-card-vertical-alignment: center;
-    }
 
     @media (width > 960px) {
       --bento-card-gap: 16px;
@@ -462,12 +425,6 @@ footer {
 
     grid-area: six;
 
-    @media (width < 660px) {
-      --bento-card-image-width: 100%;
-      --bento-card-horizontal-alignment: start;
-      --bento-card-vertical-alignment: center;
-    }
-
     @media (width > 960px) {
       --bento-card-image-width: 100%;
     }
@@ -483,12 +440,6 @@ footer {
 
     grid-area: seven;
 
-    @media (width < 660px) {
-      --bento-card-image-width: 100%;
-      --bento-card-horizontal-alignment: start;
-      --bento-card-vertical-alignment: center;
-    }
-
     @media (width > 960px) {
       --bento-card-image-width: 200px;
       --bento-card-vertical-alignment: center;
@@ -500,18 +451,11 @@ footer {
     --bento-card-image-width: 60%;
 
     grid-area: eight;
-
-    @media (width < 660px) {
-      --bento-card-image-width: 100%;
-      --bento-card-horizontal-alignment: start;
-      --bento-card-vertical-alignment: center;
-    }
-
+    
     @media (width > 960px) {
       --bento-card-image-width: 100%;
       --bento-card-horizontal-alignment: center;
     }
-  }
 }
 
 @layer utilities {
