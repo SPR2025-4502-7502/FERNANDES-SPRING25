@@ -298,6 +298,18 @@ footer {
       'six'
       'seven'
       'eight';
+   
+    @media (width < 660px) {
+      grid-template-areas:
+        'one'
+        'two'
+        'three'
+        'four'
+        'five'
+        'six'
+        'seven'
+        'eight';
+    }
 
     @media (width > 660px) {
       grid-template-areas:
