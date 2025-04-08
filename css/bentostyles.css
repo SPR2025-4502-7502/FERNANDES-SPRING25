@@ -318,16 +318,16 @@ body {
        ;
      }
    }
-        @media (max-width: 600px) {
+    @media (max-width: 660px) {
       grid-template-areas:
-        'one'
-        'two'
-        'three'
-        'four'
-        'five'
-        'six'
-        'seven'
-        'eight';
+        "one"
+        "two"
+        "three"
+        "four"
+        "five"
+        "six"
+        "seven"
+        "eight";
       grid-template-columns: 1fr;
         }
  
