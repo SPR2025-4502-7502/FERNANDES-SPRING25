@@ -318,10 +318,6 @@ body {
        ;
      }
    }
-    @media (max-width: 660px) {
-      display: flex;
-      flex-direction: column;
-      align-items: stretch;
  
    .bento-grid>* {
      color: var(--bento-card-foreground, var(--black));
