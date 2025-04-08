@@ -318,7 +318,7 @@ body {
        ;
      }
    }
-    @media (max-width: 660px) {
+    @media (width < 660px) {
       grid-template-areas:
         "one"
         "two"
