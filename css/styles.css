@@ -1,7 +1,6 @@
 body {
    background-color: #004343;
  }
-}
  
  a {
    text-decoration: none;
@@ -263,9 +262,9 @@ body {
  
    body {
      margin: 32px;
-     color: var(--off-white);
+     color: var(--black);
      font-size: var(--fs-reg);
-     background: var(--off-white);
+     background: var(--black);
    }
  
    h1,
@@ -299,17 +298,6 @@ body {
        'six'
        'seven'
        'eight';
-
-      @media (width < 660px) {
-         grid-template-areas:
-            "one"
-            "two"
-            "three"
-            "four"
-            "five"
-            "six"
-            "seven"
-            "eight"
  
      @media (width > 660px) {
        grid-template-areas:
