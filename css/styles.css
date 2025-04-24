@@ -6,6 +6,7 @@
   margin: -1px;
   overflow: hidden;
   border: 0;
+  color: white;
 }
 
 .skip-link:focus{
@@ -15,6 +16,7 @@
   padding: unset;
   margin: unset;
   font-size: 2rem;
+  color: white;
 }
 
 body {
